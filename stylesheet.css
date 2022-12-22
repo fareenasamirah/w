@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:all .2s linear;
+}
+
+.content {
+  width: 100;
+  height: 100vh;
+  position:relative;
+  overflow: hidden;
+  background: #fff0f0;
+  background-image: url('images/pexels-lisa-fotios-1279330.jpg');
+  /* background-repeat: repeat; */
+  background-position: top center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.content h3 p {
+  color: #fff0f0;
+  text-align: left bottom;
+}
+
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navtop {
+    flex:1;
+    text-align: right;
+}
+
+.navtop ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navtop ul li a {
+    color: rgb(70, 9, 70);
+    text-decoration: none;
+}
+
+.book-table {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.book-table h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.book-table p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.book-table form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-table label,
+.book-table input[type="submit"] {
+  width: 100%;
+  max-width: 300px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.book-table label {
+  text-align: left;
+}
+
+.book-table input[type="text"],
+.book-table input[type="email"],
+.book-table input[type="tel"],
+.book-table input[type="date"],
+.book-table input[type="time"],
+.book-table input[type="number"] {
+  background-color: #f8f8f8;
+}
+
+.book-table input[type="submit"] {
+  background-color: #966f43;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #966f43;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.menu-image {
+  width: 150px;
+  height: 200px;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.menu table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.menu tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.menu th {
+  background-color: #a08552;
+  color: white;
+}
+
+.menu img.menu-image {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+input[type="submit"] {
+  width: 25%;
+  margin-top: 20px;
+  background-color: #966f43;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.order form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.order input, 
+.order textarea {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.order table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.order th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.order tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.order th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.book-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.book-table th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.book-table str:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.book-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button {
+  width: 25%;
+  margin-top: 20px;
+  background-color: #966f43;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.interest {
+  text-align: center;
+}
